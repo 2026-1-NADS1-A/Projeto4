@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SchoolPlayManager.Business/SchoolPlayManager.Business.csproj" />
+  <Project Path="SchoolPlayManager.Data/SchoolPlayManager.Data.csproj" />
+  <Project Path="SchoolPlayManager/SchoolPlayManager.csproj" />
+</Solution>

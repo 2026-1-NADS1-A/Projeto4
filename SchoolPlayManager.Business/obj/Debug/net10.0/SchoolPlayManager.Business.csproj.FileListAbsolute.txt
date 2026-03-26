@@ -1,0 +1,12 @@
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\bin\Debug\net10.0\SchoolPlayManager.Business.deps.json
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\bin\Debug\net10.0\SchoolPlayManager.Business.dll
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\bin\Debug\net10.0\SchoolPlayManager.Business.pdb
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.AssemblyInfoInputs.cache
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.AssemblyInfo.cs
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.csproj.CoreCompileInputs.cache
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.sourcelink.json
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.dll
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\refint\SchoolPlayManager.Business.dll
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\SchoolPlayManager.Business.pdb
+C:\Users\26028948\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\net10.0\ref\SchoolPlayManager.Business.dll

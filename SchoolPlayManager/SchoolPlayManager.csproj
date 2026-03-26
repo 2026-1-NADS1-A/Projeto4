@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SchoolPlayManager.core\SchoolPlayManager.core.csproj" />
+    <ProjectReference Include="..\SchoolPlayManager.Business\SchoolPlayManager.Business.csproj" />
   </ItemGroup>
 
 </Project>

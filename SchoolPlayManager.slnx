@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="SchoolPlayManager.core/SchoolPlayManager.core.csproj" />
   <Project Path="SchoolPlayManager/SchoolPlayManager.csproj" />
 </Solution>

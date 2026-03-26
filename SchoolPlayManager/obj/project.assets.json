@@ -172,17 +172,27 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "SchoolPlayManager.core/1.0.0": {
+      "SchoolPlayManager.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Microsoft.Data.Sqlite": "10.0.5"
+          "SchoolPlayManager.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SchoolPlayManager.core.dll": {}
+          "bin/placeholder/SchoolPlayManager.Business.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SchoolPlayManager.core.dll": {}
+          "bin/placeholder/SchoolPlayManager.Business.dll": {}
+        }
+      },
+      "SchoolPlayManager.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SchoolPlayManager.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolPlayManager.Data.dll": {}
         }
       }
     }
@@ -313,32 +323,42 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "SchoolPlayManager.core/1.0.0": {
+    "SchoolPlayManager.Business/1.0.0": {
       "type": "project",
-      "path": "../SchoolPlayManager.core/SchoolPlayManager.core.csproj",
-      "msbuildProject": "../SchoolPlayManager.core/SchoolPlayManager.core.csproj"
+      "path": "../SchoolPlayManager.Business/SchoolPlayManager.Business.csproj",
+      "msbuildProject": "../SchoolPlayManager.Business/SchoolPlayManager.Business.csproj"
+    },
+    "SchoolPlayManager.Data/1.0.0": {
+      "type": "project",
+      "path": "../SchoolPlayManager.Data/SchoolPlayManager.Data.csproj",
+      "msbuildProject": "../SchoolPlayManager.Data/SchoolPlayManager.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0-windows7.0": [
       "Microsoft.Data.Sqlite >= 10.0.5",
-      "SchoolPlayManager.core >= 1.0.0"
+      "SchoolPlayManager.Business >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Desk pc\\.nuget\\packages\\": {}
+    "C:\\Users\\26028948\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desk pc\\source\\repos\\SchoolPlayManager\\SchoolPlayManager\\SchoolPlayManager.csproj",
+      "projectUniqueName": "C:\\Users\\26028948\\source\\repos\\2026-1-NADS1-A\\Projeto4\\SchoolPlayManager\\SchoolPlayManager.csproj",
       "projectName": "SchoolPlayManager",
-      "projectPath": "C:\\Users\\Desk pc\\source\\repos\\SchoolPlayManager\\SchoolPlayManager\\SchoolPlayManager.csproj",
-      "packagesPath": "C:\\Users\\Desk pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desk pc\\source\\repos\\SchoolPlayManager\\SchoolPlayManager\\obj\\",
+      "projectPath": "C:\\Users\\26028948\\source\\repos\\2026-1-NADS1-A\\Projeto4\\SchoolPlayManager\\SchoolPlayManager.csproj",
+      "packagesPath": "C:\\Users\\26028948\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\26028948\\source\\repos\\2026-1-NADS1-A\\Projeto4\\SchoolPlayManager\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Desk pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\26028948\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -352,8 +372,8 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\Desk pc\\source\\repos\\SchoolPlayManager\\SchoolPlayManager.core\\SchoolPlayManager.core.csproj": {
-              "projectPath": "C:\\Users\\Desk pc\\source\\repos\\SchoolPlayManager\\SchoolPlayManager.core\\SchoolPlayManager.core.csproj"
+            "C:\\Users\\26028948\\source\\repos\\2026-1-NADS1-A\\Projeto4\\SchoolPlayManager.Business\\SchoolPlayManager.Business.csproj": {
+              "projectPath": "C:\\Users\\26028948\\source\\repos\\2026-1-NADS1-A\\Projeto4\\SchoolPlayManager.Business\\SchoolPlayManager.Business.csproj"
             }
           }
         }
@@ -368,7 +388,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0-windows7.0": {
@@ -398,7 +418,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
