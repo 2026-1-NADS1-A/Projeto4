@@ -11,6 +11,7 @@ namespace SchoolPlayManager.Business.Models
 		public string Email { get; set; }
 		public string Password { get; set; }
 		public bool IsActive { get; set; }
+		public string Limit { get; set; }
 		public List<string> AuthorizedIPs { get; set; } = new List<string>();
 	}
 }
