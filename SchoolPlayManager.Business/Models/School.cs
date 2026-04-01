@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
 
 namespace SchoolPlayManager.Business.Models
 {
@@ -15,5 +16,6 @@ namespace SchoolPlayManager.Business.Models
 		public List<string> AuthorizedIPs { get; set; } = new List<string>();
 	}
 }
+
 
 

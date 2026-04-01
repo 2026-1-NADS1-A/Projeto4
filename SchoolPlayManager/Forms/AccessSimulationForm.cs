@@ -1,10 +1,89 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Net;
+using System.Net.Sockets;
 
 namespace SchoolPlayManager.Forms
 {
-    internal class AccessSimulationForm
+    public partial class AccessSimulationForm : Form
     {
+        public AccessSimulationForm()
+        {
+            InitializeComponent();
+
+            // Optional: trigger the verification once the form components are initialized
+            // (original code called the handler with null parameters at file scope)
+            btnVerificarAcesso_Click(null, null);
+        }
+
+        private void btnVerificarAcesso_Click(object sender, EventArgs e)
+        {
+            string ipDigitado = txtIpOrigem.Text.Trim(); // .Trim() tira os espaços em branco que o usuário digitar sem querer
+
+            // 1. VALIDAÇÃO DE FORMATO IPv4
+            // Tenta converter o texto para um IP. Se conseguir, e a família do IP for InterNetwork (que significa IPv4)...
+            if (!IPAddress.TryParse(ipDigitado, out IPAddress ipFormatado) || ipFormatado.AddressFamily != AddressFamily.InterNetwork)
+            {
+                // Se falhar, avisa o usuário e para a execução por aqui (return)
+                lblStatus.Text = "Formato de IP Inválido!";
+                lblStatus.ForeColor = Color.Orange;
+                return;
+            }
+
+            // 2. REGRA DE NEGÓCIO (Se chegou aqui, o IP é um IPv4 válido)
+            // Precisamos instanciar sua classe que está na camada Business
+            SchoolPlayManager.Business.Validators.IPValidator validador = new SchoolPlayManager.Business.Validators.IPValidator();
+
+            bool isAutorizado = validador.ValidarAcesso(ipDigitado);
+
+            // 3. ATUALIZAÇÃO DA TELA
+            if (isAutorizado)
+            {
+                lblStatus.Text = "Acesso Autorizado";
+                lblStatus.ForeColor = Color.Green;
+            }
+            else
+            {
+                lblStatus.Text = "Acesso Bloqueado";
+                lblStatus.ForeColor = Color.Red;
+            }
+
+            // 4. REGISTRO VISUAL DO LOG
+            string statusLog = isAutorizado ? "Permitido" : "Bloqueado";
+            string logMsg = $"{DateTime.Now:HH:mm:ss} | IP: {ipDigitado} | Status: {statusLog}";
+            lstLogs.Items.Insert(0, logMsg); // Insert(0, ...) coloca o log mais recente no topo da lista
+
+            // 1. Atualiza as cores e o texto da Label na UI
+            lblStatus.Text = isAutorizado ? "Acesso Autorizado" : "Acesso Bloqueado";
+            lblStatus.ForeColor = isAutorizado ? Color.Green : Color.Red;
+
+            // 2. Monta o objeto de Log
+            SchoolPlayManager.Business.Models.AccessLog novoLog = new SchoolPlayManager.Business.Models.AccessLog
+            {
+                DataHora = DateTime.Now,
+                IpOrigem = ipDigitado,
+                AcessoPermitido = isAutorizado
+            };
+
+            // 3. Salva o Log fisicamente chamando a camada de Dados
+            SchoolPlayManager.Data.Repositories.AccessLogRepository repositorioLog = new SchoolPlayManager.Data.Repositories.AccessLogRepository();
+            repositorioLog.RegistrarLog(novoLog);
+
+            // 4. Continua mostrando na tela (ListBox) para feedback visual rápido
+            string logMsgVisual = $"{novoLog.DataHora:HH:mm:ss} | IP: {novoLog.IpOrigem} | Status: {novoLog.Status}";
+            lstLogs.Items.Insert(0, logMsgVisual);
+        }
+
+        private void txtIpOrigem_TextChanged(object sender, EventArgs e)
+        {
+            // Intentionally left blank: the designer wired this event, but no runtime action required.
+            // If desired, you can call validation or enable/disable controls here.
+        }
+
+        private void lblStatus_Click(object sender, EventArgs e)
+        {
+            // No-op click handler to satisfy designer event wiring.
+        }
     }
 }

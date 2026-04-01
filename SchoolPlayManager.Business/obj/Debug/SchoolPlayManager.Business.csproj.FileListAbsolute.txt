@@ -1,0 +1,6 @@
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\bin\Debug\SchoolPlayManager.Business.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\bin\Debug\SchoolPlayManager.Business.pdb
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\SchoolPlayManager.Business.csproj.AssemblyReference.cache
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\SchoolPlayManager.Business.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\SchoolPlayManager.Business.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Business\obj\Debug\SchoolPlayManager.Business.pdb

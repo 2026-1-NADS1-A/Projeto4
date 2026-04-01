@@ -1,0 +1,9 @@
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\bin\Debug\SchoolPlayManager.Data.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\bin\Debug\SchoolPlayManager.Data.pdb
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\bin\Debug\SchoolPlayManager.Business.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\bin\Debug\SchoolPlayManager.Business.pdb
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\obj\Debug\SchoolPlayManager.Data.csproj.AssemblyReference.cache
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\obj\Debug\SchoolPlayManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\obj\Debug\SchoolPl.6B357285.Up2Date
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\obj\Debug\SchoolPlayManager.Data.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager.Data\obj\Debug\SchoolPlayManager.Data.pdb

@@ -1,8 +1,13 @@
-﻿using System;
+﻿// SchoolPlayManager.Business\Models\AccessLog.cs
+using System;
 
-public class AccessLog
+namespace SchoolPlayManager.Business.Models
 {
-	public AccessLog()
-	{
-	}
+    public class AccessLog
+    {
+        public DateTime DataHora { get; set; }
+        public string IpOrigem { get; set; }
+        public bool AcessoPermitido { get; set; }
+        public string Status => AcessoPermitido ? "Autorizado" : "Bloqueado";
+    }
 }
