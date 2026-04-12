@@ -1,6 +1,6 @@
 # Projeto4
 Projeto 4
 
+<img width="1018" height="556" alt="BD entrega 1 - PI" src="https://github.com/user-attachments/assets/5d32e76f-70f7-4421-8bda-980070aa950b" />
 
-![DER image](https://github.com/user-attachments/assets/0a1b1882-f81b-4019-a92c-14efca35ab0c)
 
