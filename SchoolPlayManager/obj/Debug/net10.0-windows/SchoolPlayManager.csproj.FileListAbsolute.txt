@@ -142,3 +142,4 @@ C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager\obj\Debug\
 C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager\obj\Debug\net10.0-windows\SchoolPlayManager.pdb
 C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager\obj\Debug\net10.0-windows\SchoolPlayManager.genruntimeconfig.cache
 C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager\obj\Debug\net10.0-windows\ref\SchoolPlayManager.dll
+C:\Users\Pedro\source\repos\2026-1-NADS1-A\Projeto4\SchoolPlayManager\obj\Debug\net10.0-windows\SchoolPlayManager.Properties.Resources.resources

@@ -15,6 +15,25 @@ namespace SchoolPlayManager.Forms
             // Optional: trigger the verification once the form components are initialized
             // (original code called the handler with null parameters at file scope)
             btnVerificarAcesso_Click(null, null);
+
+            // Centraliza os controles horizontalmente em relação ao botão
+            int centroX = btnVerificarAcesso.Left + btnVerificarAcesso.Width / 2;
+            lblStatus.Left = centroX - lblStatus.Width / 2;
+
+            txtIpOrigem.Width = btnVerificarAcesso.Width;
+            txtIpOrigem.Left = centroX - txtIpOrigem.Width / 2;
+
+            // Label com largura maior para o texto caber
+            lblStatus.AutoSize = true;
+            lblStatus.Width = 250; // ajuste esse valor se precisar
+            lblStatus.Left = centroX - lblStatus.Width / 2;
+            lblStatus.TextAlign = ContentAlignment.MiddleCenter;
+
+            teste.Width = btnVerificarAcesso.Width;
+            teste.Left = centroX - teste.Width / 2;
+
+            btnVerificarAcesso_Click(null, null);
+
         }
 
         private void btnVerificarAcesso_Click(object sender, EventArgs e)
@@ -27,7 +46,7 @@ namespace SchoolPlayManager.Forms
             {
                 // Se falhar, avisa o usuário e para a execução por aqui (return)
                 lblStatus.Text = "Formato de IP Inválido!";
-                lblStatus.ForeColor = Color.Orange;
+                lblStatus.ForeColor = Color.LightGray;
                 return;
             }
 
@@ -52,7 +71,7 @@ namespace SchoolPlayManager.Forms
             // 4. REGISTRO VISUAL DO LOG
             string statusLog = isAutorizado ? "Permitido" : "Bloqueado";
             string logMsg = $"{DateTime.Now:HH:mm:ss} | IP: {ipDigitado} | Status: {statusLog}";
-            lstLogs.Items.Insert(0, logMsg); // Insert(0, ...) coloca o log mais recente no topo da lista
+            teste.Items.Insert(0, logMsg); // Insert(0, ...) coloca o log mais recente no topo da lista
 
             // 1. Atualiza as cores e o texto da Label na UI
             lblStatus.Text = isAutorizado ? "Acesso Autorizado" : "Acesso Bloqueado";
@@ -71,8 +90,7 @@ namespace SchoolPlayManager.Forms
             repositorioLog.RegistrarLog(novoLog);
 
             // 4. Continua mostrando na tela (ListBox) para feedback visual rápido
-            string logMsgVisual = $"{novoLog.DataHora:HH:mm:ss} | IP: {novoLog.IpOrigem} | Status: {novoLog.Status}";
-            lstLogs.Items.Insert(0, logMsgVisual);
+            string logMsgVisual = $"{DateTime.Now:HH:mm:ss} | IP: {ipDigitado} | Status: {statusLog}";
         }
 
         private void txtIpOrigem_TextChanged(object sender, EventArgs e)

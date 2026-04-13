@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolPlayManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd22846165c54f8c2e04b25d8e765ede57e64cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4684782661dbacda822828ab55bba3e5d458a0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolPlayManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolPlayManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,10 @@ namespace SchoolPlayManager.Data.Repositories
     public class AccessLogRepository
     {
         // Define o caminho onde o arquivo de texto será salvo (na mesma pasta do executável)
-        private readonly string caminhoArquivoLog = "logs_acesso.txt";
+        private readonly string caminhoArquivoLog = Path.Combine(
+    Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+    "logs_acesso.txt"
+    );
 
         public void RegistrarLog(AccessLog log)
         {
