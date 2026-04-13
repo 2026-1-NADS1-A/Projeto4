@@ -11,6 +11,7 @@ Projeto 4
 [matematica_discreta_entrega 1 grupo 4.docx](https://github.com/user-attachments/files/26660432/matematica_discreta_entrega.1.grupo.4.docx)
 
 # Redes
+[Redes - Entrega 1 PI - Grupo 4.pdf](https://github.com/user-attachments/files/26664172/Redes.-.Entrega.1.PI.-.Grupo.4.pdf)
 
 
 # Modelagem de softwarwe
