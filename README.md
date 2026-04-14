@@ -10,9 +10,9 @@ Messier Game Manager
 ## Nome do Grupo
 Grupo 4
 
-**Integrantes:** (coloque os nomes aqui)  
+**Integrantes:** Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves
 
-**Professores Orientadores:** (coloque os nomes aqui)  
+**Professores Orientadores:** Eduardo Savino  
 
 ---
 
