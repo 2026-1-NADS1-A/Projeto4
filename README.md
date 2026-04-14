@@ -116,3 +116,5 @@ Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
 ---
 
+<a href="https://github.com/2026-1-NADS1-A/Projeto4">Grupo 4</a> © 2026 by <a href="https://github.com/caua-nascto">Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
