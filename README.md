@@ -16,6 +16,33 @@ Grupo 4
 
 ---
 
+## 🛠 Estrutura de pastas
+
+-Raiz  
+|  
+|-->documentos  
+ |-->antigos  
+ |Documentacao.docx  
+|-->executaveis  
+ |-->windows  
+|-->imagens  
+|-->src  
+ |-->Backend  
+ |-->Frontend  
+|readme.md  
+
+A pasta raiz contém:
+
+**README.MD:** Guia geral do projeto.
+
+Pastas:
+- **documentos:** documentação  
+- **executaveis:** binários  
+- **imagens:** imagens do sistema  
+- **src:** código fonte  
+
+---
+
 ## Descrição
 
 A Messier Data & Creative é uma empresa especializada no desenvolvimento de jogos e experiências interativas voltadas ao engajamento educacional.
@@ -85,74 +112,3 @@ Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
 ---
 
-## 🛠 Estrutura de pastas
-
--Raiz  
-|  
-|-->documentos  
- |-->antigos  
- |Documentacao.docx  
-|-->executaveis  
- |-->windows  
-|-->imagens  
-|-->src  
- |-->Backend  
- |-->Frontend  
-|readme.md  
-
-A pasta raiz contém:
-
-**README.MD:** Guia geral do projeto.
-
-Pastas:
-- **documentos:** documentação  
-- **executaveis:** binários  
-- **imagens:** imagens do sistema  
-- **src:** código fonte  
-
----
-
-## 🛠 Instalação
-
-### Windows:
-Não há instalação! Apenas executável.  
-Execute o arquivo `.exe` na pasta executáveis.
-
----
-
-## 💻 Configuração para Desenvolvimento
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
-- Visual Studio  
-- .NET  
-
-
-git clone (repositorio)
-abrir no Visual Studio
-executar projeto
-
-
----
-
-## 📋 Licença/License
-
-Este projeto utiliza a licença:  
-https://chooser-beta.creativecommons.org/  
-
-Creative Commons CC BY 4.0.
-
----
-
-## 🎓 Referências
-
-https://github.com/iuricode/readme-template  
-https://github.com/gabrieldejesus/readme-model  
-https://chooser-beta.creativecommons.org/  
-https://www.toptal.com/developers/gitignore  
-
----
-
-## 🚀 Considerações Finais
-
-O projeto integra conceitos de banco de dados, programação, redes e engenhar
