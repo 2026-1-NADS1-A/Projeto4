@@ -112,5 +112,5 @@ Relacionamentos:
 
 Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
----```
+---
 
