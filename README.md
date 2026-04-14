@@ -16,8 +16,16 @@ Grupo 4
 
 ---
 
+
+## Descrição
+
+A Messier Data & Creative é uma empresa especializada no desenvolvimento de jogos e experiências interativas voltadas ao engajamento educacional.
+
+Este projeto tem como objetivo desenvolver uma aplicação Desktop para gerenciamento de assinaturas de jogos educacionais por escolas. O sistema permite controlar pacotes contratados, validar IPs autorizados, registrar acessos e gerar relatórios de uso mensal.
+
 ## 🛠 Estrutura de pastas
 
+---
 -Raiz  
 |  
 |-->documentos  
@@ -41,13 +49,6 @@ Pastas:
 - **imagens:** imagens do sistema  
 - **src:** código fonte  
 
----
-
-## Descrição
-
-A Messier Data & Creative é uma empresa especializada no desenvolvimento de jogos e experiências interativas voltadas ao engajamento educacional.
-
-Este projeto tem como objetivo desenvolver uma aplicação Desktop para gerenciamento de assinaturas de jogos educacionais por escolas. O sistema permite controlar pacotes contratados, validar IPs autorizados, registrar acessos e gerar relatórios de uso mensal.
 
 ---
 
