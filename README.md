@@ -12,7 +12,7 @@ Grupo 4
 
 **Integrantes:** Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves
 
-**Professores Orientadores:** Eduardo Savino  
+**Professores Orientadores:** Eduardo Savino Gomes, Lucy Mari Tabuti, Daniel Tressoldi da Cunha, Ronaldo Araujo Pinto, Renata Muniz do Nascimento, Aimar Martins Lopes
 
 ---
 
