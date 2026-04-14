@@ -26,7 +26,7 @@ Este projeto tem como objetivo desenvolver uma aplicação Desktop para gerencia
 ## 🛠 Estrutura de pastas
 
 ---
-```text
+````text
 Raiz
 |
 |--> documentos
@@ -51,6 +51,7 @@ Raiz
 |--> readme.md (Guia geral do projeto)
 
 ---
+````
 
 ## 🔄 Fluxo do Sistema
 
