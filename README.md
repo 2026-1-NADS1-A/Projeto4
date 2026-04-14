@@ -112,5 +112,7 @@ Relacionamentos:
 
 Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
+[Acesse Aqui](documentos/Entrega%201/Fundamentos%20de%20Banco%20de%20Dados/BD.png)
+
 ---
 
