@@ -26,29 +26,29 @@ Este projeto tem como objetivo desenvolver uma aplicação Desktop para gerencia
 ## 🛠 Estrutura de pastas
 
 ---
--Raiz  
-|  
-|-->documentos  
- |-->antigos  
- |Documentacao.docx  
-|-->executaveis  
- |-->windows  
-|-->imagens  
-|-->src  
- |-->Backend  
- |-->Frontend  
-|readme.md  
-
-A pasta raiz contém:
-
-**README.MD:** Guia geral do projeto.
-
-Pastas:
-- **documentos:** documentação  
-- **executaveis:** binários  
-- **imagens:** imagens do sistema  
-- **src:** código fonte  
-
+```text
+Raiz
+|
+|--> documentos
+|   |--> antigos
+|   |--> BD.pdf (Modelo Entidade-Relacionamento)
+|   |--> Algoritmos_e_Lógica_de_Programação.pdf
+|   |--> Regras_em_Lógica.pdf (Matemática Discreta)
+|   |--> Redes_Entrega_1_PI.pdf (Logs e IPs)
+|   |--> Modelagem_de_Software_Entrega_1.docx
+|
+|--> executáveis
+|   |--> windows (Aplicação Messier Manager .exe)
+|
+|--> imagens
+|   |--> DER_Peter_Chen.png (Modelo de Dados)
+|   |--> Protótipos_Interface.png (Telas do Sistema)
+|
+|--> src
+|   |--> App_Messier (Código fonte em C# / WinForms)
+|   |--> Database (Scripts e banco SQLite)
+|
+|--> readme.md (Guia geral do projeto)
 
 ---
 
