@@ -10,8 +10,13 @@ namespace SchoolPlayManager.Business.Validators
 
         public bool ValidarAcesso(string ipTentativa)
         {
-            // Retorna true se o IP de tentativa estiver na lista de IPs autorizados
-            return _ipsAutorizados.Contains(ipTentativa);
+           for int ( i = 0; i < _ipsAutorizados.Count; i++
+                    {
+                        if (_ipsAutorizados[i] == ipTentativa)
+                        {
+                            return true;
+                        }
+                    }
         }
     }
 }
