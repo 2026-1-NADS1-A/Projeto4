@@ -9,8 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.5" />
-    <ProjectReference Include="..\..\..\Backend\SchoolPlayManager.Business\SchoolPlayManager.Business.csproj" />
-    <ProjectReference Include="..\..\..\Backend\SchoolPlayManager.Data\SchoolPlayManager.Data.csproj" />
+    <ProjectReference Include="..\..\Backend\SchoolPlayManager.Business\SchoolPlayManager.Business.csproj" />
+    <ProjectReference Include="..\..\Backend\SchoolPlayManager.Data\SchoolPlayManager.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
