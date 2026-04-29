@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="Backend/SchoolPlayManager.Business/SchoolPlayManager.Business.csproj" Id="a138bf26-b1b4-4311-a775-4f7fb8a4a4ac" />
-  <Project Path="Backend/SchoolPlayManager.Data/SchoolPlayManager.Data.csproj" Id="17000dab-d7df-4c7f-b463-991c2331a4ea" />
-  <Project Path="Frontend/SchoolPlayManager/SchoolPlayManager.csproj" Startup="true" />
-</Solution>
