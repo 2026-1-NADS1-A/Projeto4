@@ -10,13 +10,14 @@ namespace SchoolPlayManager.Business.Validators
 
         public bool ValidarAcesso(string ipTentativa)
         {
-           for int ( i = 0; i < _ipsAutorizados.Count; i++
-                    {
-                        if (_ipsAutorizados[i] == ipTentativa)
-                        {
-                            return true;
-                        }
-                    }
+            for (int i = 0; i < _ipsAutorizados.Count; i++)
+            {
+                if (_ipsAutorizados[i] == ipTentativa)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
