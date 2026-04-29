@@ -30,5 +30,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+                StartupProject = {394FE3D9-8BF3-6BE7-AED1-E7C270491B9A}
 	EndGlobalSection
 EndGlobal
