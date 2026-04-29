@@ -3,12 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlayManager.Business", "Backend\SchoolPlayManager.Business\SchoolPlayManager.Business.csproj", "{A138BF26-B1B4-4311-A775-4F7FB8A4A4AC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlayManager.Data", "Backend\SchoolPlayManager.Data\SchoolPlayManager.Data.csproj", "{17000DAB-D7DF-4C7F-B463-991C2331A4EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlayManager", "Frontend\SchoolPlayManager\SchoolPlayManager.csproj", "{394FE3D9-8BF3-6BE7-AED1-E7C270491B9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlayManager.Business", "Backend\SchoolPlayManager.Business\SchoolPlayManager.Business.csproj", "{A138BF26-B1B4-4311-A775-4F7FB8A4A4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlayManager.Data", "Backend\SchoolPlayManager.Data\SchoolPlayManager.Data.csproj", "{17000DAB-D7DF-4C7F-B463-991C2331A4EA}"EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
