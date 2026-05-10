@@ -15,7 +15,7 @@ O banco de dados foi modelado utilizando Oracle SQL, com o objetivo de armazenar
 
 Exemplo:
 
-[modelo_fisico.sql](./modelo_fisico.sql)
+[[modelo_fisico.sql](./modelo_fisico.sql)](https://github.com/2026-1-NADS1-A/Projeto4/blob/main/documentos/Entrega%202/BD/Modelo_fisico.sql)
 
 
 
