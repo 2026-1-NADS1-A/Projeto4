@@ -103,7 +103,7 @@ Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
 A documentação da modelagem física do banco de dados está disponível no link abaixo:
 
-[[README Banco de Dados](./BD/README.md)](https://github.com/2026-1-NADS1-A/Projeto4/blob/main/documentos/Entrega%202/BD/README.md)
+(https://github.com/2026-1-NADS1-A/Projeto4/blob/main/documentos/Entrega%202/BD/README.md)
 
 ---
 
