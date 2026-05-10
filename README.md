@@ -4,11 +4,11 @@
   <img width="225" height="225" alt="Fecap_imagem" src="https://github.com/user-attachments/assets/24c0ce36-f452-400a-9a6b-e71baa5f05f4" />
 </p>
 
-## Nome do Projeto
-Messier Game Manager
+## Messier Game Manager
 
-## Nome do Grupo
-Grupo 4
+
+## Grupo 4 / Projeto PI - Goats
+
 
 **Integrantes:** Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves
 
@@ -114,7 +114,11 @@ Modelo baseado no padrão **Entidade-Relacionamento (Peter Chen)**.
 
 [Acesse Aqui](documentos/Entrega%201/Fundamentos%20de%20Banco%20de%20Dados/BD.png)
 
+A documentação da modelagem física do banco de dados está disponível no link abaixo:
+
+[README Banco de Dados](./BD/README.md)
+
 ---
 
-<a href="https://github.com/2026-1-NADS1-A/Projeto4">Grupo 4</a> © 2026 by <a href="https://github.com/caua-nascto">Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<a href="https://github.com/2026-1-NADS1-A/Projeto4">Grupo 4</a> © 2026 by <a href="https://github.com/caua-nascto">Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves</a> is licensed under, Fecap <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
