@@ -10,9 +10,9 @@
 ## Grupo 4 / Projeto PI - Goats
 
 
-**Integrantes:** Cauã Santos Nascimento, Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves
+**Integrantes:** [Cauã Santos Nascimento](https://www.linkedin.com/in/caua-nascimento/), Pedro Henrique Santos da Silva, Paulo Miguel Miranda Marcelli, Gabriel Vaz Fereira Neves
 
-**Professores Orientadores:** Eduardo Savino Gomes, Lucy Mari Tabuti, Daniel Tressoldi da Cunha, Ronaldo Araujo Pinto, Renata Muniz do Nascimento, Aimar Martins Lopes
+**Professores Orientadores:** [Aimar Martins Lopes](https://www.linkedin.com/in/aimarlopes/), [Eduardo Savino Gomes](https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/), [Lucy Mari Tabuti](https://www.linkedin.com/in/lucymari/), [Renata Muniz do Nascimento](https://www.linkedin.com/in/remuniz/), [Ronaldo Araujo Pinto](https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/)
 
 ---
 
@@ -79,19 +79,6 @@ Desenvolver uma aplicação Desktop com banco de dados relacional para gerenciar
 - Aplicar conceitos de redes (IP)  
 - Utilizar lógica proposicional  
 
----
-
-## 🧠 Lógica do Sistema
-
-
-T ↔ (P ∧ Q ∧ R ∧ S)
-
-
-Onde:
-- P: Escola possui pacote ativo  
-- Q: IP autorizado  
-- R: Limite mensal não atingido  
-- S: Jogo disponível  
 
 ---
 
