@@ -121,9 +121,3 @@ Responsável por registrar os acessos realizados no sistema.
 
 ---
 
-# Script SQL
-
-O script SQL completo da modelagem física está disponível no arquivo:
-
-```sql
-modelo_fisico.sql
