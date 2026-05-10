@@ -18,6 +18,7 @@ Exemplo:
 [modelo_fisico.sql](./modelo_fisico.sql)
 
 
+
 ---
 
 # Modelo Lógico
