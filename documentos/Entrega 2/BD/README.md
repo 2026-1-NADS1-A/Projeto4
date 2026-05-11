@@ -13,7 +13,6 @@ O banco de dados foi modelado utilizando Oracle SQL, com o objetivo de armazenar
 
 <!-- INSERIR IMAGEM DO MODELO FÍSICO AQUI -->
 
-Exemplo:
 
 (https://github.com/2026-1-NADS1-A/Projeto4/blob/main/documentos/Entrega%202/BD/Modelo_fisico.sql)
 
@@ -25,7 +24,6 @@ Exemplo:
 
 <!-- INSERIR IMAGEM DO MODELO CONCEITUAL/LÓGICO AQUI -->
 
-Exemplo:
 
 <img width="1238" height="712" alt="Modelo_logico" src="https://github.com/user-attachments/assets/4035fa1e-18a1-43ff-ba96-fca792be374a" />
 
