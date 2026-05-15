@@ -10,7 +10,7 @@
 ## Grupo 4 / Projeto PI - Goats
 
 
-**Integrantes:** [Cauã Santos Nascimento](https://www.linkedin.com/in/caua-nascimento/), [Pedro Henrique Santos da Silva](https://www.linkedin.com/in/pedrossilva15/), [Paulo Miguel Miranda Marcelli](https://www.linkedin.com/in/paulo-marcelli-06a7bb304/), [Gabriel Vaz Fereira Neves](linkedin.com/in/gabriel-vaz-1593a740a)
+**Integrantes:** [Cauã Santos Nascimento](https://www.linkedin.com/in/caua-nascimento/), [Pedro Henrique Santos da Silva](https://www.linkedin.com/in/pedrossilva15/), [Paulo Miguel Miranda Marcelli](https://www.linkedin.com/in/paulo-marcelli-06a7bb304/), [Gabriel Vaz Fereira Neves](https://www.linkedin.com/in/gabriel-vaz-1593a740a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaHGpzaQ4RcyxIbcXo1UKfA%3D%3D)
 
 **Professores Orientadores:** [Aimar Martins Lopes](https://www.linkedin.com/in/aimarlopes/), [Eduardo Savino Gomes](https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/), [Lucy Mari Tabuti](https://www.linkedin.com/in/lucymari/), [Renata Muniz do Nascimento](https://www.linkedin.com/in/remuniz/), [Ronaldo Araujo Pinto](https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/)
 
