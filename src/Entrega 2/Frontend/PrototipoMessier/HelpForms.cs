@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace PrototipoMessier
+{
+    public partial class HelpForms : Form
+    {
+        public HelpForms()
+        {
+            InitializeComponent();
+        }
+
+        private void lblHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
