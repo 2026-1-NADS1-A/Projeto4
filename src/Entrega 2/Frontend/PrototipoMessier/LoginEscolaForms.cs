@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Sockets;
+using System.Net;
 using System.IO;
 
 namespace PrototipoMessier
@@ -45,7 +46,7 @@ namespace PrototipoMessier
                 MessageBox.Show(
                 $"Acesso Negado. \n IP detectado: {ObterIpLocal()}\n Este IP não está autorizado",
                  "Acesso Bloqueado",
-                  MessageBoxButtons.OK, 
+                  MessageBoxButtons.OK,
                   MessageBoxIcon.Error
                     );
                 return;
@@ -66,23 +67,31 @@ namespace PrototipoMessier
 
         private List<string> ObterIPsDaEscola(string escola)
         {
-            // Lê todas as linhas do arquivo
-            var linhas = File.ReadAllLines("ips.txt");
+            // Dicionário: cada escola tem sua lista de IPs autorizados
+            var ipsAutorizados = new Dictionary<string, List<string>>
+    {
+        { "E.E. João da Silva",    new List<string> { "192.168.0.1", "10.0.0.5" } },
+        { "E.E. Maria Aparecida", new List<string> { "192.168.1.10" } }
+    };
 
-            foreach (var linha in linhas)
-            {
-                // Cada linha é: NomeDaEscola|ip1|ip2|ip3...
-                var partes = linha.Split('|');
+            // Tenta buscar os IPs da escola selecionada
+            // Se a escola não existir no dicionário, retorna lista vazia (bloqueado)
+            if (ipsAutorizados.ContainsKey(escola))
+                return ipsAutorizados[escola];
 
-                // partes[0] = nome da escola, partes[1..] = IPs
-                if (partes[0] == escola)
-                {
-                    // Pega tudo depois do nome (os IPs) e retorna como lista
-                    return partes.Skip(1).ToList();
-                }
-            }
+            return new List<string>();
+        }
 
-            return new List<string>(); // escola não encontrada
+        private void LoginEscolaForms_Load(object sender, EventArgs e)
+        {
+
+            btnEntrar.ForeColor = Color.FromArgb(34, 85, 34);
+        }
+
+        private void lblBack_Click(object sender, EventArgs e)
+        {
+            new PerfilForms ().Show();
+            this.Close();
         }
     }
 }
