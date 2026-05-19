@@ -79,10 +79,5 @@ namespace PrototipoMessier.Forms
             new FormLoginInicial().Show();
             this.Close();
         }
-
-        private void picJogo_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
