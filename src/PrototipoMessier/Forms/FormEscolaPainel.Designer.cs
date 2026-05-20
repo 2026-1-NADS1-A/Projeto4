@@ -15,152 +15,153 @@ namespace PrototipoMessier.Forms
 
         private void InitializeComponent()
         {
-            this.lblEscolaNome = new System.Windows.Forms.Label();
-            this.lblPacoteInfo = new System.Windows.Forms.Label();
-            this.lblLimiteInfo = new System.Windows.Forms.Label();
-            this.lstJogos = new System.Windows.Forms.ListBox();
-            this.lblJogosTitulo = new System.Windows.Forms.Label();
-            this.btnSimularAcesso = new System.Windows.Forms.Button();
-            this.prgConsumo = new System.Windows.Forms.ProgressBar();
-            this.lblPercentual = new System.Windows.Forms.Label();
-            this.btnSair = new System.Windows.Forms.Button();
-            this.picJogo = new System.Windows.Forms.PictureBox();
-            this.lblJogoSelecionado = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.picJogo)).BeginInit();
-            this.SuspendLayout();
+            lblEscolaNome = new Label();
+            lblPacoteInfo = new Label();
+            lblLimiteInfo = new Label();
+            lstJogos = new ListBox();
+            lblJogosTitulo = new Label();
+            btnSimularAcesso = new Button();
+            prgConsumo = new ProgressBar();
+            lblPercentual = new Label();
+            btnSair = new Button();
+            picJogo = new PictureBox();
+            lblJogoSelecionado = new Label();
+            ((System.ComponentModel.ISupportInitialize)picJogo).BeginInit();
+            SuspendLayout();
             // 
             // lblEscolaNome
             // 
-            this.lblEscolaNome.AutoSize = true;
-            this.lblEscolaNome.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.lblEscolaNome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.lblEscolaNome.Location = new System.Drawing.Point(20, 20);
-            this.lblEscolaNome.Name = "lblEscolaNome";
-            this.lblEscolaNome.Size = new System.Drawing.Size(165, 32);
-            this.lblEscolaNome.TabIndex = 0;
-            this.lblEscolaNome.Text = "Bem-vindo...";
+            lblEscolaNome.AutoSize = true;
+            lblEscolaNome.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            lblEscolaNome.ForeColor = Color.FromArgb(46, 139, 87);
+            lblEscolaNome.Location = new Point(20, 20);
+            lblEscolaNome.Name = "lblEscolaNome";
+            lblEscolaNome.Size = new Size(160, 32);
+            lblEscolaNome.TabIndex = 0;
+            lblEscolaNome.Text = "Bem-vindo...";
             // 
             // lblPacoteInfo
             // 
-            this.lblPacoteInfo.AutoSize = true;
-            this.lblPacoteInfo.Location = new System.Drawing.Point(25, 70);
-            this.lblPacoteInfo.Name = "lblPacoteInfo";
-            this.lblPacoteInfo.Size = new System.Drawing.Size(84, 15);
-            this.lblPacoteInfo.TabIndex = 1;
-            this.lblPacoteInfo.Text = "Pacote Atual...";
+            lblPacoteInfo.AutoSize = true;
+            lblPacoteInfo.Location = new Point(25, 70);
+            lblPacoteInfo.Name = "lblPacoteInfo";
+            lblPacoteInfo.Size = new Size(83, 15);
+            lblPacoteInfo.TabIndex = 1;
+            lblPacoteInfo.Text = "Pacote Atual...";
             // 
             // lblLimiteInfo
             // 
-            this.lblLimiteInfo.AutoSize = true;
-            this.lblLimiteInfo.Location = new System.Drawing.Point(25, 100);
-            this.lblLimiteInfo.Name = "lblLimiteInfo";
-            this.lblLimiteInfo.Size = new System.Drawing.Size(69, 15);
-            this.lblLimiteInfo.TabIndex = 2;
-            this.lblLimiteInfo.Text = "Consumo...";
+            lblLimiteInfo.AutoSize = true;
+            lblLimiteInfo.Location = new Point(25, 100);
+            lblLimiteInfo.Name = "lblLimiteInfo";
+            lblLimiteInfo.Size = new Size(68, 15);
+            lblLimiteInfo.TabIndex = 2;
+            lblLimiteInfo.Text = "Consumo...";
             // 
             // lstJogos
             // 
-            this.lstJogos.FormattingEnabled = true;
-            this.lstJogos.ItemHeight = 15;
-            this.lstJogos.Location = new System.Drawing.Point(25, 210);
-            this.lstJogos.Name = "lstJogos";
-            this.lstJogos.Size = new System.Drawing.Size(300, 154);
-            this.lstJogos.TabIndex = 3;
-            this.lstJogos.SelectedIndexChanged += new System.EventHandler(this.lstJogos_SelectedIndexChanged);
+            lstJogos.FormattingEnabled = true;
+            lstJogos.ItemHeight = 15;
+            lstJogos.Location = new Point(25, 210);
+            lstJogos.Name = "lstJogos";
+            lstJogos.Size = new Size(300, 154);
+            lstJogos.TabIndex = 3;
+            lstJogos.SelectedIndexChanged += lstJogos_SelectedIndexChanged;
             // 
             // lblJogosTitulo
             // 
-            this.lblJogosTitulo.AutoSize = true;
-            this.lblJogosTitulo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblJogosTitulo.Location = new System.Drawing.Point(25, 180);
-            this.lblJogosTitulo.Name = "lblJogosTitulo";
-            this.lblJogosTitulo.Size = new System.Drawing.Size(192, 21);
-            this.lblJogosTitulo.TabIndex = 4;
-            this.lblJogosTitulo.Text = "Seus Jogos Disponíveis:";
+            lblJogosTitulo.AutoSize = true;
+            lblJogosTitulo.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblJogosTitulo.Location = new Point(25, 180);
+            lblJogosTitulo.Name = "lblJogosTitulo";
+            lblJogosTitulo.Size = new Size(190, 21);
+            lblJogosTitulo.TabIndex = 4;
+            lblJogosTitulo.Text = "Seus Jogos Disponíveis:";
             // 
             // btnSimularAcesso
             // 
-            this.btnSimularAcesso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnSimularAcesso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSimularAcesso.ForeColor = System.Drawing.Color.White;
-            this.btnSimularAcesso.Location = new System.Drawing.Point(25, 380);
-            this.btnSimularAcesso.Name = "btnSimularAcesso";
-            this.btnSimularAcesso.Size = new System.Drawing.Size(150, 40);
-            this.btnSimularAcesso.TabIndex = 5;
-            this.btnSimularAcesso.Text = "Simular Acesso";
-            this.btnSimularAcesso.UseVisualStyleBackColor = false;
-            this.btnSimularAcesso.Click += new System.EventHandler(this.btnSimularAcesso_Click);
+            btnSimularAcesso.BackColor = Color.FromArgb(46, 139, 87);
+            btnSimularAcesso.FlatStyle = FlatStyle.Flat;
+            btnSimularAcesso.ForeColor = Color.White;
+            btnSimularAcesso.Location = new Point(25, 380);
+            btnSimularAcesso.Name = "btnSimularAcesso";
+            btnSimularAcesso.Size = new Size(150, 40);
+            btnSimularAcesso.TabIndex = 5;
+            btnSimularAcesso.Text = "Simular Acesso";
+            btnSimularAcesso.UseVisualStyleBackColor = false;
+            btnSimularAcesso.Click += btnSimularAcesso_Click;
             // 
             // prgConsumo
             // 
-            this.prgConsumo.Location = new System.Drawing.Point(25, 130);
-            this.prgConsumo.Name = "prgConsumo";
-            this.prgConsumo.Size = new System.Drawing.Size(300, 20);
-            this.prgConsumo.TabIndex = 6;
+            prgConsumo.Location = new Point(25, 130);
+            prgConsumo.Name = "prgConsumo";
+            prgConsumo.Size = new Size(300, 20);
+            prgConsumo.TabIndex = 6;
             // 
             // lblPercentual
             // 
-            this.lblPercentual.AutoSize = true;
-            this.lblPercentual.Location = new System.Drawing.Point(335, 133);
-            this.lblPercentual.Name = "lblPercentual";
-            this.lblPercentual.Size = new System.Drawing.Size(23, 15);
-            this.lblPercentual.TabIndex = 7;
-            this.lblPercentual.Text = "0%";
+            lblPercentual.AutoSize = true;
+            lblPercentual.Location = new Point(335, 133);
+            lblPercentual.Name = "lblPercentual";
+            lblPercentual.Size = new Size(23, 15);
+            lblPercentual.TabIndex = 7;
+            lblPercentual.Text = "0%";
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(700, 20);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(75, 23);
-            this.btnSair.TabIndex = 8;
-            this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            btnSair.Location = new Point(700, 20);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(75, 23);
+            btnSair.TabIndex = 8;
+            btnSair.Text = "Sair";
+            btnSair.UseVisualStyleBackColor = true;
+            btnSair.Click += btnSair_Click;
             // 
             // picJogo
             // 
-            this.picJogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.picJogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picJogo.Location = new System.Drawing.Point(350, 210);
-            this.picJogo.Name = "picJogo";
-            this.picJogo.Size = new System.Drawing.Size(150, 150);
-            this.picJogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picJogo.TabIndex = 9;
-            this.picJogo.TabStop = false;
+            picJogo.BackColor = Color.FromArgb(240, 240, 240);
+            picJogo.BorderStyle = BorderStyle.FixedSingle;
+            picJogo.Location = new Point(350, 210);
+            picJogo.Name = "picJogo";
+            picJogo.Size = new Size(150, 150);
+            picJogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            picJogo.TabIndex = 9;
+            picJogo.TabStop = false;
+            picJogo.Click += picJogo_Click;
             // 
             // lblJogoSelecionado
             // 
-            this.lblJogoSelecionado.AutoSize = true;
-            this.lblJogoSelecionado.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblJogoSelecionado.Location = new System.Drawing.Point(350, 180);
-            this.lblJogoSelecionado.Name = "lblJogoSelecionado";
-            this.lblJogoSelecionado.Size = new System.Drawing.Size(95, 19);
-            this.lblJogoSelecionado.TabIndex = 10;
-            this.lblJogoSelecionado.Text = "Visualização:";
+            lblJogoSelecionado.AutoSize = true;
+            lblJogoSelecionado.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            lblJogoSelecionado.Location = new Point(350, 180);
+            lblJogoSelecionado.Name = "lblJogoSelecionado";
+            lblJogoSelecionado.Size = new Size(95, 19);
+            lblJogoSelecionado.TabIndex = 10;
+            lblJogoSelecionado.Text = "Visualização:";
             // 
             // FormEscolaPainel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblJogoSelecionado);
-            this.Controls.Add(this.picJogo);
-            this.Controls.Add(this.btnSair);
-            this.Controls.Add(this.lblPercentual);
-            this.Controls.Add(this.prgConsumo);
-            this.Controls.Add(this.btnSimularAcesso);
-            this.Controls.Add(this.lblJogosTitulo);
-            this.Controls.Add(this.lstJogos);
-            this.Controls.Add(this.lblLimiteInfo);
-            this.Controls.Add(this.lblPacoteInfo);
-            this.Controls.Add(this.lblEscolaNome);
-            this.Name = "FormEscolaPainel";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Messier - Painel da Escola";
-            ((System.ComponentModel.ISupportInitialize)(this.picJogo)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblJogoSelecionado);
+            Controls.Add(picJogo);
+            Controls.Add(btnSair);
+            Controls.Add(lblPercentual);
+            Controls.Add(prgConsumo);
+            Controls.Add(btnSimularAcesso);
+            Controls.Add(lblJogosTitulo);
+            Controls.Add(lstJogos);
+            Controls.Add(lblLimiteInfo);
+            Controls.Add(lblPacoteInfo);
+            Controls.Add(lblEscolaNome);
+            Name = "FormEscolaPainel";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Messier - Painel da Escola";
+            ((System.ComponentModel.ISupportInitialize)picJogo).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private System.Windows.Forms.Label lblEscolaNome;
